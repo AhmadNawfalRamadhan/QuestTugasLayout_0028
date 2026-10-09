@@ -120,5 +120,15 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             fontSize = spResource(R.dimen.font_univ)
         )
         Spacer(modifier = Modifier.height(dimensionResource(R.dimen.jarak_judul)))
+
+        KartuProfil(
+            nama = R.string.nama_1,
+            alamat = R.string.alamat_1,
+            warnaKartu = R.color.card_0_bg,
+            warnaAlamat = R.color.teks_alamat_kuning,
+            ukuranNama = R.dimen.font_nama_cursive,
+            fontNama = FontFamily.Cursive,
+            bobotNama = FontWeight.Normal
+        )
     }
 }
