@@ -12,4 +12,5 @@
     <dimen name="font_prodi">35sp</dimen>
     <dimen name="font_univ">22sp</dimen>
     <dimen name="font_nama">24sp</dimen>
+    <dimen name="font_nama_cursive">30sp</dimen>
 </resources>
