@@ -15,4 +15,5 @@
 
     <color name="teks_nama">#FFFFFFFF</color>
     <color name="teks_alamat_putih">#FFFFFFFF</color>
+    <color name="teks_alamat_kuning">#FFFFFF00</color>
 </resources>
