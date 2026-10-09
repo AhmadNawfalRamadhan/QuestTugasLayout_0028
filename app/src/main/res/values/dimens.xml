@@ -6,4 +6,5 @@
     <dimen name="ukuran_logo">70dp</dimen>
     <dimen name="padding_logo">5dp</dimen>
     <dimen name="jarak_konten">12dp</dimen>
+    <dimen name="padding_footer">50dp</dimen>
 </resources>
