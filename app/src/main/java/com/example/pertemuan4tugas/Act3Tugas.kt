@@ -6,6 +6,7 @@ import androidx.annotation.ColorRes
 import androidx.annotation.DimenRes
 import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -151,5 +152,14 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             warnaKartu = R.color.card_3_bg,
             warnaAlamat = R.color.teks_alamat_putih
         )
+        Box(modifier = Modifier.fillMaxSize()) {
+            Text(
+                text = stringResource(R.string.copy),
+                fontSize = spResource(R.dimen.font_footer),
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .padding(bottom = dimensionResource(R.dimen.padding_footer))
+            )
+        }
     }
 }
