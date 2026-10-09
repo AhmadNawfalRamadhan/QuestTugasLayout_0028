@@ -8,4 +8,6 @@
     <dimen name="jarak_konten">12dp</dimen>
     <dimen name="padding_footer">50dp</dimen>
     <dimen name="jarak_teks">4dp</dimen>
+
+    <dimen name="font_prodi">35sp</dimen>
 </resources>
