@@ -14,4 +14,5 @@
     <color name="card_3_bg">#FF006400</color>
 
     <color name="teks_nama">#FFFFFFFF</color>
+    <color name="teks_alamat_putih">#FFFFFFFF</color>
 </resources>
