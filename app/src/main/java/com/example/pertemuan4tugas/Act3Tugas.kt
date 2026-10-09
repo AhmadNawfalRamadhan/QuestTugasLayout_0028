@@ -5,17 +5,20 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.annotation.ColorRes
 import androidx.annotation.DimenRes
 import androidx.annotation.StringRes
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.dimensionResource
+import androidx.compose.ui.res.stringResource
 
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp
@@ -48,7 +51,35 @@ fun KartuProfil(
             modifier = Modifier.fillMaxWidth(),
             verticalAlignment = Alignment.CenterVertically
         ) {
-
+            LogoUmy()
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = dimensionResource(R.dimen.jarak_konten))
+            ) {
+                Text(
+                    text = stringResource(nama),
+                    fontSize = spResource(ukuranNama),
+                    fontFamily = fontNama,
+                    fontWeight = bobotNama,
+                    color = colorResource(R.color.teks_nama)
+                )
+                if (telepon != null) {
+                    Text(
+                        text = stringResource(telepon),
+                        fontSize = spResource(R.dimen.font_detail),
+                        color = colorResource(R.color.teks_telp),
+                        modifier = Modifier.padding(top = dimensionResource(R.dimen.jarak_teks))
+                    )
+                }
+                Text(
+                    text = stringResource(alamat),
+                    fontSize = spResource(R.dimen.font_detail),
+                    color = colorResource(warnaAlamat),
+                    modifier = Modifier.padding(top = dimensionResource(R.dimen.jarak_teks))
+                )
+            }
+            LogoUmy()
         }
     }
 }
