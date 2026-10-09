@@ -4,4 +4,5 @@
     <dimen name="padding_kartu">12dp</dimen>
     <dimen name="radius_kartu">16dp</dimen>
     <dimen name="ukuran_logo">70dp</dimen>
+    <dimen name="padding_logo">5dp</dimen>
 </resources>
