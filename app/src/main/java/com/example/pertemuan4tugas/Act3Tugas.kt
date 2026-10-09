@@ -130,5 +130,12 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             fontNama = FontFamily.Cursive,
             bobotNama = FontWeight.Normal
         )
+        KartuProfil(
+            nama = R.string.nama_2,
+            telepon = R.string.telp_2,
+            alamat = R.string.alamat_2,
+            warnaKartu = R.color.card_1_bg,
+            warnaAlamat = R.color.teks_alamat_kuning
+        )
     }
 }
