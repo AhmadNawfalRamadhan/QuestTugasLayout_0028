@@ -137,5 +137,12 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             warnaKartu = R.color.card_1_bg,
             warnaAlamat = R.color.teks_alamat_kuning
         )
+        KartuProfil(
+            nama = R.string.nama_3,
+            telepon = R.string.telp_3,
+            alamat = R.string.alamat_3,
+            warnaKartu = R.color.card_2_bg,
+            warnaAlamat = R.color.teks_alamat_putih
+        )
     }
 }
