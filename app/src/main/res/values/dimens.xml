@@ -1,3 +1,4 @@
 <resources>
     <dimen name="padding_atas_layar">100dp</dimen>
+    <dimen name="jarak_judul">25dp</dimen>
 </resources>
